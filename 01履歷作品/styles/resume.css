@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F7F7F7;
+}
+
+div {
+  padding: 0.5rem;
+}
+
+h3 {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 50px;
+  color: #4A454B;
+  background: #F0CFC3;
+}
+
+.left, .middle {
+  flex: 1 1 42%;
+  padding: 1rem;
+}
+.left img, .middle img {
+  width: 80%;
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left .skill {
+  align-self: flex-start;
+}
+
+.right {
+  flex: 1 1 5%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.right ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 15%;
+}
+.right ul li {
+  padding: 1vh;
+  margin: 2rem;
+}/*# sourceMappingURL=resume.css.map */
